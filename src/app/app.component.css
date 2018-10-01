@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
+
+
+h1{
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+}
+#bars{
+  font-size: 20px;
+}
+#nav{
+  display: block;
+  z-index: 99;
+  background-color: #d0103a;
+  position: fixed;
+  width: 100%;
+  /* height: 7vh; */
+}
+
+#wrapper{
+  margin-top: 30vh;
+}
+.white{
+  background-color: white;
+  border-bottom: solid #d0103a 20px;
+  -webkit-box-shadow: 0 4px 4px -2px #000000;
+  -moz-box-shadow: 0 4px 4px -2px #000000;
+       box-shadow: 0 4px 4px -2px #000000;
+}
+#logo{
+  padding: 25px;
+}
+#links{
+  padding:20px;
+}
+#links a{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  padding-right: 40px;
+  color:#d0103a;
+  text-transform: none;
+}
+#links a:hover{
+  text-decoration: none;
+}
+i{
+  color: white;
+  font-size: 40px;
+}
+#tutor{
+  padding: 80px;
+  background-color: rgba(255, 0, 0, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/tutor.jpg');
+  text-align:center;
+  transition: all 250ms;
+}
+#tutor:hover{
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+#extending-class{
+  padding: 80px;
+  background-color: rgba(128, 0, 128, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/extending-class.jpg');
+  text-align:center;
+  transition: all 250ms;
+}
+#extending-class:hover{
+  background-color: rgba(128, 0, 128, 0.7);
+}
+
+#tutorial-center{
+  padding: 80px;
+  background-color: rgba(255, 192, 203, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/tutorial-center.jpg');
+  text-align:center;
+  transition: all 250ms;
+}
+#tutorial-center:hover{
+  background-color: rgba(255, 192, 203, 0.7);
+}
+#writing-reading{
+  padding: 80px;
+  background-color: rgba(255, 166, 0, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/writing-reading.jpg');
+  text-align:center;
+  transition: all 250ms;
+}
+#writing-reading:hover{
+  background-color: rgba(255, 166, 0, 0.7);
+}
+#pass{
+  padding: 80px;
+  background-color: rgba(255, 255, 0, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/pass.jpg');
+  text-align:center;
+  transition: all 250ms;
+}
+#pass:hover{
+  background-color: rgba(255, 255, 0, 0.7);
+}
+#become-tutor{
+  padding: 80px;
+  background-color: rgba(128, 128, 128, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/become-tutor.jpg');
+  text-align:center;
+  transition: all 250ms;
+}
+#become-tutor:hover{
+  background-color: rgba(128, 128, 128, 0.7);
+}
+#resources{
+  padding: 80px;
+  background-color: rgba(128, 0, 128, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/resources.jpg');
+  text-align:center;
+  transition: all 250ms;
+}
+#resources:hover{
+  background-color: rgba(128, 0, 128, 0.7);
+}
+#online-tutoring{
+  padding: 80px;
+  background-color: rgba(161, 4, 161, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/online-tutoring.jpg');
+  text-align:center;
+}
+#online-tutoring:hover{
+  background-color: rgba(161, 4, 161, 0.7);
+}
+
+#workshop{
+  padding: 80px;
+  background-color: rgba(255, 68, 0, 0.4);
+  background-blend-mode: lighten;
+  color: white;
+  font-weight:bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size:25px;
+  background-size: cover;
+  background-image: url('/assets/images/workshop.jpg');
+  text-align:center;
+}
+#workshop:hover{
+  background-color: rgba(255, 68, 0, 0.7);
+}
+
+.foot{
+  width:100%;
+  background-color:#d0103a;
+  bottom:0;
+  left: 0;
+}
+
+#login button{
+  border: none;
+  text-transform: none;
+  padding:10px;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+  background-color: #d0103a;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .text-right{
+    text-align:left!important;
+  }
+#logo{
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+}
+  #links{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  .white{
+
+  border-bottom: solid #d0103a 5px;
+  }
+
+  #icon{
+    padding-left: 40px;
+  }
+}
